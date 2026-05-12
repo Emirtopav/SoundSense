@@ -1,0 +1,34 @@
+# Her şeyi engelle
+/*
+
+# Sadece bu klasörlere ve dosyalara izin ver
+!/SoundSenseCpp/
+!/SoundSense_IDF/
+!/media/
+!/README.md
+!/README_TR.md
+!/SoundSense.iss
+!/.gitignore
+!/LICENSE.txt
+
+# SoundSenseCpp içindeki gereksizleri tekrar engelle (İç içe kural)
+/SoundSenseCpp/build/
+/SoundSenseCpp/build_release/
+/SoundSenseCpp/build_new/
+/SoundSenseCpp/dist/
+/SoundSenseCpp/*.log
+/SoundSenseCpp/*.bin
+/SoundSenseCpp/*.exe
+/SoundSenseCpp/*.dll
+
+# SoundSense_IDF içindeki gereksizleri tekrar engelle
+/SoundSense_IDF/build/
+/SoundSense_IDF/sdkconfig
+/SoundSense_IDF/.cache/
+
+# Genel engellemeler
+node_modules/
+.vscode/
+.idea/
+*.log
+*.bin

@@ -1,0 +1,14 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+    <file alias="Main.qml">qml/Main.qml</file>
+    <file alias="SceneEditorView.qml">qml/SceneEditorView.qml</file>
+    <file alias="components/SsSlider.qml">qml/components/SsSlider.qml</file>
+    <file alias="components/SsSwitch.qml">qml/components/SsSwitch.qml</file>
+    <file alias="components/SsCard.qml">qml/components/SsCard.qml</file>
+    <file alias="components/SsButton.qml">qml/components/SsButton.qml</file>
+    <file alias="components/SsInput.qml">qml/components/SsInput.qml</file>
+    <file alias="components/SsTextField.qml">qml/components/SsTextField.qml</file>
+    <file alias="components/SsComboBox.qml">qml/components/SsComboBox.qml</file>
+    <file alias="logo.png">logo.png</file>
+</qresource>
+</RCC>
